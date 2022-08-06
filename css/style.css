@@ -175,6 +175,9 @@ p{
 	display: inline-block;
 
 }
+.mobile-break{
+	display: none;
+}
 
 .email{
 	display: inline-block;
@@ -183,6 +186,7 @@ p{
 
 .image{
 	position: fixed;
+	background-repeat: no-repeat;
 	right: 0px;
 	bottom: 0px;
 	opacity: 30%;
@@ -231,6 +235,9 @@ p{
 	.post {
 		padding: 0 50px;
 
+	}
+	.mobile-break{
+	display: static;
 	}
 
 /*	.post{
