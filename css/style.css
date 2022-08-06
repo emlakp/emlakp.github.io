@@ -173,6 +173,7 @@ p{
 	color: darkgrey;
 	text-decoration: none;
 	display: inline-block;
+
 }
 
 .email{
@@ -220,6 +221,12 @@ p{
 	}
 	.post *{
 		font-size: 42px;
+
+	}
+	.post{
+		display: flex;
+		justify-content: center;
+		flex-direction: column;
 
 	}
 }
