@@ -1,0 +1,71 @@
+@import url(reset.css);
+
+@font-face {
+    font-family: 'Apple Garamond';
+    src: url('AppleGaramond.eot');
+/*    src: url('AppleGaramond.eot?#iefix') format('embedded-opentype'),
+        url('AppleGaramond.woff2') format('woff2'),
+        url('AppleGaramond.woff') format('woff');*/
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+p{
+	font-size: 50px;
+	text-align: left;
+	font-family: 'Apple Garamond';
+	margin-bottom: 10px;
+}
+
+.content{
+}
+.outer{
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+/* 40 x 30 x 20 */
+
+.image{
+	position: fixed;
+	right: 0px;
+	bottom: 0px;
+	opacity: 30%;
+	/*left: 600px;*/
+	z-index: -1;
+	/*background-color: grey;*/
+	height: 89vh;
+	width: 60vw;
+	background-image: url(/Users/kevin/Downloads/final.png);
+}
+
+@media screen and (max-device-width:481px), screen and (max-width:481px){
+	p{
+		font-size: 77px;
+	}
+/*	.content{
+		margin: 0 20px;
+	}*/
+	.outer{
+		position: relative;
+		/*height: 100vh;*/
+	}
+
+	.image{
+		position: absolute;
+		background-repeat: no-repeat;
+		/*bottom: 100px;*/
+		height: 80vh;
+		width: 100vw;
+		right: 0;
+		bottom: -100px;
+		background-size: 275%;
+		/*transform: rotate(90deg);*/
+		/*width: 100%;*/
+	}
+}
+
