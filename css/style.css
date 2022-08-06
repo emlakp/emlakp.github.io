@@ -218,5 +218,9 @@ p{
 		/*transform: rotate(90deg);*/
 		/*width: 100%;*/
 	}
+	.post *{
+		font-size: 42px;
+
+	}
 }
 
