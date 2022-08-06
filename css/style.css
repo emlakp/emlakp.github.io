@@ -229,5 +229,10 @@ p{
 		flex-direction: column;
 
 	}
+	.email{
+		animation-name: shake-little;
+	  animation-duration: 100ms;
+	  animation-timing-function: ease-in-out;
+	  animation-iteration-count: infinite; }
 }
 
