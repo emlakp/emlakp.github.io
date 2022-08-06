@@ -221,18 +221,29 @@ p{
 	}
 	.post *{
 		font-size: 42px;
+		display: inline;
+		line-height: 50px;
+	}
+
+	.email{
+		display: inline;
+	}
+	.post {
+		padding: 0 50px;
 
 	}
-	.post{
+
+/*	.post{
 		display: flex;
 		justify-content: center;
 		flex-direction: column;
-
+		margin: 0 20px;
 	}
 	.email{
 		animation-name: shake-little;
 	  animation-duration: 100ms;
 	  animation-timing-function: ease-in-out;
-	  animation-iteration-count: infinite; }
+	  animation-iteration-count: infinite;
+	   }*/
 }
 
