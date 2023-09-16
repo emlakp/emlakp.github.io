@@ -141,18 +141,28 @@
 @import url('http://fonts.cdnfonts.com/css/apple-garamond');
 
 
-p{
-	font-size: 50px;
-	text-align: left;
-	font-family: 'Apple Garamond';
-	letter-spacing: 0.02em;
-	margin-bottom: 10px;
+
+body {
+    font-family: 'Apple Garamond'; /* Set a common font-family for the entire page */
+    text-align: left;
+    font-size: 50px; /* Set a base font size for the entire page */
+    letter-spacing: 0.02em;
+    margin-bottom: 10px; /* Optional: Remove default margin for the entire page */
+}
+
+p {
+    margin-bottom: 10px;
 }
 
 a {
     text-decoration: none; /* Remove underline */
     color: inherit; /* Inherit color from parent (body) */
+    font-size: inherit; /* Inherit font-size from parent (body) */
+    font-family: inherit; /* Inherit font-family from parent (body) */
+    letter-spacing: inherit; /* Inherit letter-spacing from parent (body) */
+    margin-bottom: inherit;
 }
+
 
 .content{
 }
