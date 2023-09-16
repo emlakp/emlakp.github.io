@@ -265,25 +265,26 @@ a {
 
 /* styles.css */
 .ticker {
-    overflow: hidden;
-    white-space: nowrap;
-    width: 100%;
-    background-color: #333; /* Optional background color */
-    color: #fff; /* Optional text color */
+   overflow: hidden;
+   white-space: nowrap;
+   width: 100%;
+   background-color: #333; /* Background color for the ticker */
+   color: #fff; /* Text color for the ticker */
 }
 
 .ticker-content {
-    display: inline-block;
-    padding-right: 100%; /* Push content off the screen to the right */
-    animation: ticker-scroll 10s linear infinite; /* Adjust animation duration as needed */
+   display: inline-block;
+   padding-right: 100%; /* Push content off the screen to the right */
+   animation: ticker-scroll 10s linear infinite; /* Adjust animation duration as needed */
 }
 
 @keyframes ticker-scroll {
-    0% {
-        transform: translateX(100%);
-    }
-    100% {
-        transform: translateX(-100%); /* Adjust the percentage for scrolling distance */
-    }
+   0% {
+       transform: translateX(100%);
+   }
+   100% {
+       transform: translateX(-100%); /* Adjust the percentage for scrolling distance */
+   }
 }
+
 
