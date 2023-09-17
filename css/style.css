@@ -164,9 +164,6 @@ a {
     font-size: inherit; /* Inherit font-size from parent (body) */
     font-family: inherit; /* Inherit font-family from parent (body) */
     letter-spacing: inherit; /* Inherit letter-spacing from parent (body) */
-    margin-bottom: inherit;
-    margin-left: 50px;  /* Adjust the value as needed */
-    margin-right: 50px;
 }
 
 
